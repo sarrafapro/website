@@ -12,6 +12,14 @@
     <priority>1.0</priority>
   </url>
   
+  <!-- Blog page -->
+  <url>
+    <loc>https://www.sarrafapro.in/blog</loc>
+    <lastmod>2025-08-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
   <!-- Features page (if you have one) -->
   <url>
     <loc>https://www.sarrafapro.in/features</loc>
