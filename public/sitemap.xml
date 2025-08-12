@@ -20,31 +20,7 @@
     <priority>0.8</priority>
   </url>
   
-  <!-- Features page (if you have one) -->
-  <url>
-    <loc>https://www.sarrafapro.in/features</loc>
-    <lastmod>2025-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <!-- Download page (if you have one) -->
-  <url>
-    <loc>https://www.sarrafapro.in/download</loc>
-    <lastmod>2025-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  
-  <!-- Contact page (if you have one) -->
-  <url>
-    <loc>https://www.sarrafapro.in/contact</loc>
-    <lastmod>2025-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <!-- Privacy Policy (if you have one) -->
+  <!-- Privacy Policy -->
   <url>
     <loc>https://www.sarrafapro.in/privacy</loc>
     <lastmod>2025-08-12</lastmod>
@@ -52,7 +28,7 @@
     <priority>0.3</priority>
   </url>
   
-  <!-- Terms of Service (if you have one) -->
+  <!-- Terms of Service -->
   <url>
     <loc>https://www.sarrafapro.in/terms</loc>
     <lastmod>2025-08-12</lastmod>

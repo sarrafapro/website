@@ -12,30 +12,28 @@ export default function Footer() {
     {
       title: "Product",
       links: [
-        { name: "Features", action: () => scrollToSection('features') },
-        { name: "Benefits", action: () => scrollToSection('benefits') },
-        { name: "Mobile App", action: () => scrollToSection('mobile') },
-        { name: "Pricing", action: () => {} },
-        { name: "Security", action: () => {} }
+        { name: "Features", action: () => scrollToSection('features'), type: "scroll" },
+        { name: "Benefits", action: () => scrollToSection('benefits'), type: "scroll" },
+        { name: "Mobile App", action: () => scrollToSection('mobile'), type: "scroll" },
+        { name: "Download", action: () => scrollToSection('contact'), type: "scroll" }
       ]
     },
     {
-      title: "Company",
+      title: "Company", 
       links: [
-        { name: "About Us", action: () => {} },
-        { name: "Careers", action: () => {} },
-        { name: "Blog", action: () => {} },
-        { name: "News", action: () => {} },
-        { name: "Contact", action: () => scrollToSection('contact') }
+        { name: "About Us", action: () => scrollToSection('features'), type: "scroll" },
+        { name: "Contact", action: () => scrollToSection('contact'), type: "scroll" },
+        { name: "Blog", href: "/blog", type: "link" },
+        { name: "Support", action: () => {}, type: "button" }
       ]
     },
     {
-      title: "Support",
+      title: "Legal",
       links: [
-        { name: "Help Center", action: () => {} },
-        { name: "Documentation", action: () => {} },
-        { name: "Training", action: () => {} },
-        { name: "Status", action: () => {} }
+        { name: "Privacy Policy", href: "/privacy", type: "link" },
+        { name: "Terms of Service", href: "/terms", type: "link" },
+        { name: "Help Center", action: () => {}, type: "button" },
+        { name: "Documentation", action: () => {}, type: "button" }
       ]
     }
   ];
@@ -82,12 +80,21 @@ export default function Footer() {
               <ul className="space-y-3">
                 {section.links.map((link, linkIndex) => (
                   <li key={linkIndex}>
-                    <button
-                      onClick={link.action}
-                      className="text-slate-400 hover:text-white transition duration-150 text-left"
-                    >
-                      {link.name}
-                    </button>
+                    {link.type === "link" && link.href ? (
+                      <a
+                        href={link.href}
+                        className="text-slate-400 hover:text-white transition duration-150"
+                      >
+                        {link.name}
+                      </a>
+                    ) : (
+                      <button
+                        onClick={link.action}
+                        className="text-slate-400 hover:text-white transition duration-150 text-left"
+                      >
+                        {link.name}
+                      </button>
+                    )}
                   </li>
                 ))}
               </ul>
@@ -101,19 +108,22 @@ export default function Footer() {
           ))}
         </div>
         
-        <div className="border-t border-slate-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <div className="border-t border-slate-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="text-slate-400 mb-4 md:mb-0">
-            © 2024 SarrafaPro. All rights reserved.
+            © 2025 SarrafaPro. All rights reserved.
           </div>
-          <div className="flex space-x-6">
-            <button className="text-slate-400 hover:text-white transition duration-150">
+          <div className="flex space-x-6 text-sm">
+            <a href="/privacy" className="text-slate-400 hover:text-white transition duration-150">
               Privacy Policy
-            </button>
-            <button className="text-slate-400 hover:text-white transition duration-150">
+            </a>
+            <a href="/terms" className="text-slate-400 hover:text-white transition duration-150">
               Terms of Service
-            </button>
-            <button className="text-slate-400 hover:text-white transition duration-150">
-              Cookie Policy
+            </a>
+            <button 
+              onClick={() => scrollToSection('contact')}
+              className="text-slate-400 hover:text-white transition duration-150"
+            >
+              Contact
             </button>
           </div>
         </div>
