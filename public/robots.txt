@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.sarrafapro.in/sitemap.xml
+
+# Disallow any admin or private directories (if any)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Allow all bots to crawl everything
+# Crawl-delay: 1
