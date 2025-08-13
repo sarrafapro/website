@@ -38,6 +38,12 @@ export default function Navigation() {
               >
                 Benefits
               </button>
+              <a 
+                href="/blog.html"
+                className="text-slate-600 hover:text-brand-blue px-3 py-2 text-sm font-medium transition duration-150"
+              >
+                Blog
+              </a>
               <button 
                 onClick={() => scrollToSection('mobile')}
                 className="text-slate-600 hover:text-brand-blue px-3 py-2 text-sm font-medium transition duration-150"
@@ -95,6 +101,12 @@ export default function Navigation() {
             >
               Benefits
             </button>
+            <a 
+              href="/blog.html"
+              className="text-slate-600 hover:text-brand-blue block px-3 py-2 text-base font-medium w-full text-left"
+            >
+              Blog
+            </a>
             <button 
               onClick={() => scrollToSection('mobile')}
               className="text-slate-600 hover:text-brand-blue block px-3 py-2 text-base font-medium w-full text-left"

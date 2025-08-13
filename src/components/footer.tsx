@@ -23,15 +23,15 @@ export default function Footer() {
       links: [
         { name: "About Us", action: () => scrollToSection('features'), type: "scroll" },
         { name: "Contact", action: () => scrollToSection('contact'), type: "scroll" },
-        { name: "Blog", href: "/blog", type: "link" },
+        { name: "Blog", href: "/blog.html", type: "link" },
         { name: "Support", action: () => {}, type: "button" }
       ]
     },
     {
       title: "Legal",
       links: [
-        { name: "Privacy Policy", href: "/privacy", type: "link" },
-        { name: "Terms of Service", href: "/terms", type: "link" },
+        { name: "Privacy Policy", href: "/privacy.html", type: "link" },
+        { name: "Terms of Service", href: "/terms.html", type: "link" },
         { name: "Help Center", action: () => {}, type: "button" },
         { name: "Documentation", action: () => {}, type: "button" }
       ]
@@ -113,10 +113,10 @@ export default function Footer() {
             © 2025 SarrafaPro. All rights reserved.
           </div>
           <div className="flex space-x-6 text-sm">
-            <a href="/privacy" className="text-slate-400 hover:text-white transition duration-150">
+            <a href="/privacy.html" className="text-slate-400 hover:text-white transition duration-150">
               Privacy Policy
             </a>
-            <a href="/terms" className="text-slate-400 hover:text-white transition duration-150">
+            <a href="/terms.html" className="text-slate-400 hover:text-white transition duration-150">
               Terms of Service
             </a>
             <button 

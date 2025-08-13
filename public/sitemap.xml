@@ -12,26 +12,34 @@
     <priority>1.0</priority>
   </url>
   
-  <!-- Blog page -->
+  <!-- Blog page (Static HTML) -->
   <url>
-    <loc>https://www.sarrafapro.in/blog</loc>
-    <lastmod>2025-08-12</lastmod>
+    <loc>https://www.sarrafapro.in/blog.html</loc>
+    <lastmod>2025-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
-  <!-- Privacy Policy -->
+  <!-- Blog Article: Gold & Silver Stock Management -->
   <url>
-    <loc>https://www.sarrafapro.in/privacy</loc>
-    <lastmod>2025-08-12</lastmod>
+    <loc>https://www.sarrafapro.in/blog/gold-silver-stock-management-2025.html</loc>
+    <lastmod>2025-08-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Privacy Policy (Static HTML) -->
+  <url>
+    <loc>https://www.sarrafapro.in/privacy.html</loc>
+    <lastmod>2025-08-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   
-  <!-- Terms of Service -->
+  <!-- Terms of Service (Static HTML) -->
   <url>
-    <loc>https://www.sarrafapro.in/terms</loc>
-    <lastmod>2025-08-12</lastmod>
+    <loc>https://www.sarrafapro.in/terms.html</loc>
+    <lastmod>2025-08-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
