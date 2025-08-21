@@ -28,6 +28,14 @@
     <priority>0.7</priority>
   </url>
   
+  <!-- Blog Article: Karigar Management Best Practices -->
+  <url>
+    <loc>https://www.sarrafapro.in/blog/karigar-management-best-practices.html</loc>
+    <lastmod>2025-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
   <!-- Privacy Policy (Static HTML) -->
   <url>
     <loc>https://www.sarrafapro.in/privacy.html</loc>
